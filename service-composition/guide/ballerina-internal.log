@@ -1,0 +1,208 @@
+[2019-07-03 13:41:18,034] ERROR {org.ballerinax.docker.DockerPlugin} - Unable to connect to server: permission denied for docker 
+org.ballerinax.docker.exceptions.DockerPluginException: Unable to connect to server: permission denied for docker
+	at org.ballerinax.docker.DockerAnnotationProcessor.processDockerModel(DockerAnnotationProcessor.java:88)
+	at org.ballerinax.docker.DockerPlugin.codeGenerated(DockerPlugin.java:162)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.lambda$writeExecutableBinary$0(BinaryFileWriter.java:123)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeExecutableBinary(BinaryFileWriter.java:122)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.write(BinaryFileWriter.java:97)
+	at org.wso2.ballerinalang.compiler.Compiler.write(Compiler.java:118)
+	at org.ballerinalang.packerina.BuilderUtils.compileWithTestsAndWrite(BuilderUtils.java:108)
+	at org.ballerinalang.packerina.cmd.BuildCommand.execute(BuildCommand.java:189)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.ballerinalang.launcher.Main.main(Main.java:63)
+Caused by: org.ballerinax.docker.generator.exceptions.DockerGenException: Unable to connect to server: permission denied for docker
+	at org.ballerinax.docker.generator.DockerArtifactHandler.handleError(DockerArtifactHandler.java:179)
+	at org.ballerinax.docker.generator.DockerArtifactHandler.buildImage(DockerArtifactHandler.java:174)
+	at org.ballerinax.docker.generator.DockerArtifactHandler.createArtifacts(DockerArtifactHandler.java:100)
+	at org.ballerinax.docker.DockerAnnotationProcessor.processDockerModel(DockerAnnotationProcessor.java:85)
+	... 10 more
+ 
+[2019-07-03 13:41:35,024] ERROR {org.ballerinax.docker.DockerPlugin} - Unable to build Docker image: get https://registry-1.docker.io/v2/ballerina/ballerina-runtime/manifests/0.991.0: unauthorized: incorrect username or password 
+org.ballerinax.docker.exceptions.DockerPluginException: Unable to build Docker image: get https://registry-1.docker.io/v2/ballerina/ballerina-runtime/manifests/0.991.0: unauthorized: incorrect username or password
+	at org.ballerinax.docker.DockerAnnotationProcessor.processDockerModel(DockerAnnotationProcessor.java:88)
+	at org.ballerinax.docker.DockerPlugin.codeGenerated(DockerPlugin.java:162)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.lambda$writeExecutableBinary$0(BinaryFileWriter.java:123)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeExecutableBinary(BinaryFileWriter.java:122)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.write(BinaryFileWriter.java:97)
+	at org.wso2.ballerinalang.compiler.Compiler.write(Compiler.java:118)
+	at org.ballerinalang.packerina.BuilderUtils.compileWithTestsAndWrite(BuilderUtils.java:108)
+	at org.ballerinalang.packerina.cmd.BuildCommand.execute(BuildCommand.java:189)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.ballerinalang.launcher.Main.main(Main.java:63)
+Caused by: org.ballerinax.docker.generator.exceptions.DockerGenException: Unable to build Docker image: get https://registry-1.docker.io/v2/ballerina/ballerina-runtime/manifests/0.991.0: unauthorized: incorrect username or password
+	at org.ballerinax.docker.generator.DockerArtifactHandler.handleError(DockerArtifactHandler.java:179)
+	at org.ballerinax.docker.generator.DockerArtifactHandler.buildImage(DockerArtifactHandler.java:174)
+	at org.ballerinax.docker.generator.DockerArtifactHandler.createArtifacts(DockerArtifactHandler.java:100)
+	at org.ballerinax.docker.DockerAnnotationProcessor.processDockerModel(DockerAnnotationProcessor.java:85)
+	... 10 more
+ 
+[2019-07-03 13:46:17,808] ERROR {org.ballerinax.docker.DockerPlugin} - Unable to build Docker image: get https://registry-1.docker.io/v2/ballerina/ballerina-runtime/manifests/0.991.0: unauthorized: incorrect username or password 
+org.ballerinax.docker.exceptions.DockerPluginException: Unable to build Docker image: get https://registry-1.docker.io/v2/ballerina/ballerina-runtime/manifests/0.991.0: unauthorized: incorrect username or password
+	at org.ballerinax.docker.DockerAnnotationProcessor.processDockerModel(DockerAnnotationProcessor.java:88)
+	at org.ballerinax.docker.DockerPlugin.codeGenerated(DockerPlugin.java:162)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.lambda$writeExecutableBinary$0(BinaryFileWriter.java:123)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeExecutableBinary(BinaryFileWriter.java:122)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.write(BinaryFileWriter.java:97)
+	at org.wso2.ballerinalang.compiler.Compiler.write(Compiler.java:118)
+	at org.ballerinalang.packerina.BuilderUtils.compileWithTestsAndWrite(BuilderUtils.java:108)
+	at org.ballerinalang.packerina.cmd.BuildCommand.execute(BuildCommand.java:189)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.ballerinalang.launcher.Main.main(Main.java:63)
+Caused by: org.ballerinax.docker.generator.exceptions.DockerGenException: Unable to build Docker image: get https://registry-1.docker.io/v2/ballerina/ballerina-runtime/manifests/0.991.0: unauthorized: incorrect username or password
+	at org.ballerinax.docker.generator.DockerArtifactHandler.handleError(DockerArtifactHandler.java:179)
+	at org.ballerinax.docker.generator.DockerArtifactHandler.buildImage(DockerArtifactHandler.java:174)
+	at org.ballerinax.docker.generator.DockerArtifactHandler.createArtifacts(DockerArtifactHandler.java:100)
+	at org.ballerinax.docker.DockerAnnotationProcessor.processDockerModel(DockerAnnotationProcessor.java:85)
+	... 10 more
+ 
+[2019-07-03 13:51:54,159] ERROR {org.ballerinax.docker.DockerPlugin} - Unable to build Docker image: get https://registry-1.docker.io/v2/ballerina/ballerina-runtime/manifests/0.991.0: unauthorized: incorrect username or password 
+org.ballerinax.docker.exceptions.DockerPluginException: Unable to build Docker image: get https://registry-1.docker.io/v2/ballerina/ballerina-runtime/manifests/0.991.0: unauthorized: incorrect username or password
+	at org.ballerinax.docker.DockerAnnotationProcessor.processDockerModel(DockerAnnotationProcessor.java:88)
+	at org.ballerinax.docker.DockerPlugin.codeGenerated(DockerPlugin.java:162)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.lambda$writeExecutableBinary$0(BinaryFileWriter.java:123)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeExecutableBinary(BinaryFileWriter.java:122)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.write(BinaryFileWriter.java:97)
+	at org.wso2.ballerinalang.compiler.Compiler.write(Compiler.java:118)
+	at org.ballerinalang.packerina.BuilderUtils.compileWithTestsAndWrite(BuilderUtils.java:108)
+	at org.ballerinalang.packerina.cmd.BuildCommand.execute(BuildCommand.java:189)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.ballerinalang.launcher.Main.main(Main.java:63)
+Caused by: org.ballerinax.docker.generator.exceptions.DockerGenException: Unable to build Docker image: get https://registry-1.docker.io/v2/ballerina/ballerina-runtime/manifests/0.991.0: unauthorized: incorrect username or password
+	at org.ballerinax.docker.generator.DockerArtifactHandler.handleError(DockerArtifactHandler.java:179)
+	at org.ballerinax.docker.generator.DockerArtifactHandler.buildImage(DockerArtifactHandler.java:174)
+	at org.ballerinax.docker.generator.DockerArtifactHandler.createArtifacts(DockerArtifactHandler.java:100)
+	at org.ballerinax.docker.DockerAnnotationProcessor.processDockerModel(DockerAnnotationProcessor.java:85)
+	... 10 more
+ 
+[2019-07-03 15:10:33,883] ERROR {org.ballerinax.docker.DockerPlugin} - Unable to build Docker image: get https://registry-1.docker.io/v2/ballerina/ballerina-runtime/manifests/0.991.0: unauthorized: incorrect username or password 
+org.ballerinax.docker.exceptions.DockerPluginException: Unable to build Docker image: get https://registry-1.docker.io/v2/ballerina/ballerina-runtime/manifests/0.991.0: unauthorized: incorrect username or password
+	at org.ballerinax.docker.DockerAnnotationProcessor.processDockerModel(DockerAnnotationProcessor.java:88)
+	at org.ballerinax.docker.DockerPlugin.codeGenerated(DockerPlugin.java:162)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.lambda$writeExecutableBinary$0(BinaryFileWriter.java:123)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeExecutableBinary(BinaryFileWriter.java:122)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.write(BinaryFileWriter.java:97)
+	at org.wso2.ballerinalang.compiler.Compiler.write(Compiler.java:118)
+	at org.ballerinalang.packerina.BuilderUtils.compileWithTestsAndWrite(BuilderUtils.java:108)
+	at org.ballerinalang.packerina.cmd.BuildCommand.execute(BuildCommand.java:189)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.ballerinalang.launcher.Main.main(Main.java:63)
+Caused by: org.ballerinax.docker.generator.exceptions.DockerGenException: Unable to build Docker image: get https://registry-1.docker.io/v2/ballerina/ballerina-runtime/manifests/0.991.0: unauthorized: incorrect username or password
+	at org.ballerinax.docker.generator.DockerArtifactHandler.handleError(DockerArtifactHandler.java:179)
+	at org.ballerinax.docker.generator.DockerArtifactHandler.buildImage(DockerArtifactHandler.java:174)
+	at org.ballerinax.docker.generator.DockerArtifactHandler.createArtifacts(DockerArtifactHandler.java:100)
+	at org.ballerinax.docker.DockerAnnotationProcessor.processDockerModel(DockerAnnotationProcessor.java:85)
+	... 10 more
+ 
+[2019-07-03 15:10:38,848] ERROR {org.ballerinax.kubernetes.KubernetesPlugin} - module [dilhasha/travel_agency:0.0.1] Unable to build Docker image: get https://registry-1.docker.io/v2/ballerina/ballerina-runtime/manifests/0.991.0: unauthorized: incorrect username or password 
+org.ballerinax.kubernetes.exceptions.KubernetesPluginException: Unable to build Docker image: get https://registry-1.docker.io/v2/ballerina/ballerina-runtime/manifests/0.991.0: unauthorized: incorrect username or password
+	at org.ballerinax.kubernetes.handlers.DockerHandler.createArtifacts(DockerHandler.java:43)
+	at org.ballerinax.kubernetes.ArtifactManager.createArtifacts(ArtifactManager.java:84)
+	at org.ballerinax.kubernetes.KubernetesPlugin.codeGenerated(KubernetesPlugin.java:150)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.lambda$writeExecutableBinary$0(BinaryFileWriter.java:123)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeExecutableBinary(BinaryFileWriter.java:122)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.write(BinaryFileWriter.java:97)
+	at org.wso2.ballerinalang.compiler.Compiler.write(Compiler.java:118)
+	at org.ballerinalang.packerina.BuilderUtils.compileWithTestsAndWrite(BuilderUtils.java:108)
+	at org.ballerinalang.packerina.cmd.BuildCommand.execute(BuildCommand.java:189)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.ballerinalang.launcher.Main.main(Main.java:63)
+Caused by: org.ballerinax.docker.generator.exceptions.DockerGenException: Unable to build Docker image: get https://registry-1.docker.io/v2/ballerina/ballerina-runtime/manifests/0.991.0: unauthorized: incorrect username or password
+	at org.ballerinax.docker.generator.DockerArtifactHandler.handleError(DockerArtifactHandler.java:179)
+	at org.ballerinax.docker.generator.DockerArtifactHandler.buildImage(DockerArtifactHandler.java:174)
+	at org.ballerinax.docker.generator.DockerArtifactHandler.createArtifacts(DockerArtifactHandler.java:100)
+	at org.ballerinax.kubernetes.handlers.DockerHandler.createArtifacts(DockerHandler.java:40)
+	... 11 more
+ 
+[2019-07-03 15:11:26,802] ERROR {org.ballerinax.docker.DockerPlugin} - Unable to build Docker image: get https://registry-1.docker.io/v2/ballerina/ballerina-runtime/manifests/0.991.0: unauthorized: incorrect username or password 
+org.ballerinax.docker.exceptions.DockerPluginException: Unable to build Docker image: get https://registry-1.docker.io/v2/ballerina/ballerina-runtime/manifests/0.991.0: unauthorized: incorrect username or password
+	at org.ballerinax.docker.DockerAnnotationProcessor.processDockerModel(DockerAnnotationProcessor.java:88)
+	at org.ballerinax.docker.DockerPlugin.codeGenerated(DockerPlugin.java:162)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.lambda$writeExecutableBinary$0(BinaryFileWriter.java:123)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeExecutableBinary(BinaryFileWriter.java:122)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.write(BinaryFileWriter.java:97)
+	at org.wso2.ballerinalang.compiler.Compiler.write(Compiler.java:118)
+	at org.ballerinalang.packerina.BuilderUtils.compileWithTestsAndWrite(BuilderUtils.java:108)
+	at org.ballerinalang.packerina.cmd.BuildCommand.execute(BuildCommand.java:189)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.ballerinalang.launcher.Main.main(Main.java:63)
+Caused by: org.ballerinax.docker.generator.exceptions.DockerGenException: Unable to build Docker image: get https://registry-1.docker.io/v2/ballerina/ballerina-runtime/manifests/0.991.0: unauthorized: incorrect username or password
+	at org.ballerinax.docker.generator.DockerArtifactHandler.handleError(DockerArtifactHandler.java:179)
+	at org.ballerinax.docker.generator.DockerArtifactHandler.buildImage(DockerArtifactHandler.java:174)
+	at org.ballerinax.docker.generator.DockerArtifactHandler.createArtifacts(DockerArtifactHandler.java:100)
+	at org.ballerinax.docker.DockerAnnotationProcessor.processDockerModel(DockerAnnotationProcessor.java:85)
+	... 10 more
+ 
+[2019-07-03 15:11:29,821] ERROR {org.ballerinax.kubernetes.KubernetesPlugin} - module [dilhasha/travel_agency:0.0.1] Unable to build Docker image: get https://registry-1.docker.io/v2/ballerina/ballerina-runtime/manifests/0.991.0: unauthorized: incorrect username or password 
+org.ballerinax.kubernetes.exceptions.KubernetesPluginException: Unable to build Docker image: get https://registry-1.docker.io/v2/ballerina/ballerina-runtime/manifests/0.991.0: unauthorized: incorrect username or password
+	at org.ballerinax.kubernetes.handlers.DockerHandler.createArtifacts(DockerHandler.java:43)
+	at org.ballerinax.kubernetes.ArtifactManager.createArtifacts(ArtifactManager.java:84)
+	at org.ballerinax.kubernetes.KubernetesPlugin.codeGenerated(KubernetesPlugin.java:150)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.lambda$writeExecutableBinary$0(BinaryFileWriter.java:123)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeExecutableBinary(BinaryFileWriter.java:122)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.write(BinaryFileWriter.java:97)
+	at org.wso2.ballerinalang.compiler.Compiler.write(Compiler.java:118)
+	at org.ballerinalang.packerina.BuilderUtils.compileWithTestsAndWrite(BuilderUtils.java:108)
+	at org.ballerinalang.packerina.cmd.BuildCommand.execute(BuildCommand.java:189)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.ballerinalang.launcher.Main.main(Main.java:63)
+Caused by: org.ballerinax.docker.generator.exceptions.DockerGenException: Unable to build Docker image: get https://registry-1.docker.io/v2/ballerina/ballerina-runtime/manifests/0.991.0: unauthorized: incorrect username or password
+	at org.ballerinax.docker.generator.DockerArtifactHandler.handleError(DockerArtifactHandler.java:179)
+	at org.ballerinax.docker.generator.DockerArtifactHandler.buildImage(DockerArtifactHandler.java:174)
+	at org.ballerinax.docker.generator.DockerArtifactHandler.createArtifacts(DockerArtifactHandler.java:100)
+	at org.ballerinax.kubernetes.handlers.DockerHandler.createArtifacts(DockerHandler.java:40)
+	... 11 more
+ 
+[2019-07-04 09:42:15,535] ERROR {org.ballerinax.docker.DockerPlugin} - Unable to write content to /home/dilhasha/Documents/ballerina-guides/service-composition/guide/target/travel_agency 
+org.ballerinax.docker.exceptions.DockerPluginException: Unable to write content to /home/dilhasha/Documents/ballerina-guides/service-composition/guide/target/travel_agency
+	at org.ballerinax.docker.DockerAnnotationProcessor.processDockerModel(DockerAnnotationProcessor.java:88)
+	at org.ballerinax.docker.DockerPlugin.codeGenerated(DockerPlugin.java:162)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.lambda$writeExecutableBinary$0(BinaryFileWriter.java:123)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeExecutableBinary(BinaryFileWriter.java:122)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.write(BinaryFileWriter.java:97)
+	at org.wso2.ballerinalang.compiler.Compiler.write(Compiler.java:118)
+	at org.ballerinalang.packerina.BuilderUtils.compileWithTestsAndWrite(BuilderUtils.java:108)
+	at org.ballerinalang.packerina.cmd.BuildCommand.execute(BuildCommand.java:189)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.ballerinalang.launcher.Main.main(Main.java:63)
+Caused by: org.ballerinax.docker.generator.exceptions.DockerGenException: Unable to write content to /home/dilhasha/Documents/ballerina-guides/service-composition/guide/target/travel_agency
+	at org.ballerinax.docker.generator.DockerArtifactHandler.createArtifacts(DockerArtifactHandler.java:111)
+	at org.ballerinax.docker.DockerAnnotationProcessor.processDockerModel(DockerAnnotationProcessor.java:85)
+	... 10 more
+ 
+[2019-07-04 09:42:15,937] ERROR {org.ballerinax.kubernetes.KubernetesPlugin} - module [dilhasha/travel_agency:0.0.1] error while generating yaml file for service: ballerina-guides-travel-agency-service 
+org.ballerinax.kubernetes.exceptions.KubernetesPluginException: error while generating yaml file for service: ballerina-guides-travel-agency-service
+	at org.ballerinax.kubernetes.handlers.ServiceHandler.generate(ServiceHandler.java:71)
+	at org.ballerinax.kubernetes.handlers.ServiceHandler.createArtifacts(ServiceHandler.java:88)
+	at org.ballerinax.kubernetes.ArtifactManager.createArtifacts(ArtifactManager.java:76)
+	at org.ballerinax.kubernetes.KubernetesPlugin.codeGenerated(KubernetesPlugin.java:150)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.lambda$writeExecutableBinary$0(BinaryFileWriter.java:123)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeExecutableBinary(BinaryFileWriter.java:122)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.write(BinaryFileWriter.java:97)
+	at org.wso2.ballerinalang.compiler.Compiler.write(Compiler.java:118)
+	at org.ballerinalang.packerina.BuilderUtils.compileWithTestsAndWrite(BuilderUtils.java:108)
+	at org.ballerinalang.packerina.cmd.BuildCommand.execute(BuildCommand.java:189)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.ballerinalang.launcher.Main.main(Main.java:63)
+Caused by: java.nio.file.AccessDeniedException: /home/dilhasha/Documents/ballerina-guides/service-composition/guide/target/kubernetes/travel_agency/travel_agency.yaml
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:84)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:434)
+	at java.nio.file.Files.newOutputStream(Files.java:216)
+	at java.nio.file.Files.write(Files.java:3292)
+	at org.ballerinax.kubernetes.utils.KubernetesUtils.writeToFile(KubernetesUtils.java:121)
+	at org.ballerinax.kubernetes.utils.KubernetesUtils.writeToFile(KubernetesUtils.java:95)
+	at org.ballerinax.kubernetes.handlers.ServiceHandler.generate(ServiceHandler.java:68)
+	... 12 more
+ 
